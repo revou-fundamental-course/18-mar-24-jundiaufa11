@@ -31,11 +31,26 @@
 
         <div class="section-content-container">
             <div class="content1">
-                <img class="img-content" src="assets/travel-1.jpg" alt="Content">
+                <div class="slideshow">
+                    <div class="slides fade">
+                        <img class="img-content" src="assets/travel-1.jpg" alt="Content">
+                    </div>
+
+                    <div class="slides fade">
+                        <img class="img-content" src="assets/travel-2.jpg" alt="Content">
+                    </div>
+
+                    <div class="slides fade">
+                        <img class="img-content" src="assets/travel-3.jpg" alt="Content">
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                </div>
 
                 <div class="comment">
                     <p>"Liburan jadi menyenangkan bersama Travel Agentku"</p>
-                    
+
                     <span><i class="fa fa-user-circle-o fa-lg"></i> Florence Hughes</span>
                     <p>Ibu Rumah Tangga, 28</p>
                 </div>
@@ -45,12 +60,12 @@
 
                 <h2 class="contact-title">Contact Us</h2>
                 <p class="contact-subtitle">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
-                
+
                 <br>
                 <form id="contact-form" class="contact-form" onsubmit="{return false;}">
                     <label for="nama">Your Name:</label>
                     <input type="text" id="nama" name="nama" required>
-                    
+
                     <label for="email">Email:</label>
                     <input type="text" id="email" name="email" required>
 
@@ -76,7 +91,7 @@
 
     <section id="package" class="package">
 
-        <div class="content-package">            
+        <div class="content-package">
             <h4><i class="fa fa-lightbulb-o"></i> Bali</h4>
             <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
         </div>
@@ -95,7 +110,7 @@
 
     <section id="package" class="package">
 
-        <div class="content-package">            
+        <div class="content-package">
             <h4><i class="fa fa-star"></i> Bandung</h4>
             <p>Travel dan wisata di Bandung. kunjungi cagar budaya dan kuliner yang menarik</p>
         </div>
@@ -114,7 +129,9 @@
 
     <section id="call-action" class="call-action">
         <h1>Your Closing Argument Headline</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quidem illum repellat totam rem animi veniam debitis fugit corrupti eum. Iusto obcaecati officia ratione magni, error perspiciatis nulla itaque nobis.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quidem illum repellat totam rem animi
+            veniam debitis fugit corrupti eum. Iusto obcaecati officia ratione magni, error perspiciatis nulla itaque
+            nobis.</p>
         <center>
             <button type="submit">Call To Action</button>
         </center>
@@ -124,7 +141,7 @@
 
     <footer id="footer" class="footer">
         <h1>Go Travel</h1>
-        <p>Terms of Service  Privacy Policy</p>
+        <p>Terms of Service Privacy Policy</p>
         <p>&copy 2024 Jundi Aufa</p>
     </footer>
 

@@ -88,6 +88,14 @@ html {
     padding: 20px;
 }
 
+.comment i {
+    color: #b7b9bb;
+}
+
+.comment span {
+    color: #161716;
+}
+
 .contact-title {
     font-size: 20px;
     font-weight: bold;
@@ -255,4 +263,49 @@ button[type=submit]:hover {
     cursor: pointer;
     padding: 15px;
     border-radius: 50px;
+}
+
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.slides {
+    display: none;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* next position  */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #161716;
+}
+
+/* animasi  */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
 }
