@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Revou - Assignment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header class="header-container">
+        <section class="logo-icon">
+            <img src="/assets/logo2.png" width="40px" height="40px" alt="">
+        </section>
+        <section class="nav-container">
+            <button type="button" id="btn-home">Home</button>
+            <button type="button" id="btn-package">Our Package</button>
+            <button type="button" id="btn-action">Call Action</button>
+        </section>
+    </header>
+    <hr>
+
+    <section id="home" class="section-container">
+        <header>
+            <h1 class="title">Your Trusted Travel Agent's</h1>
+            <span class="subtitle">Your happines is our hapiness</span>
+        </header>
+
+        <div class="section-content-container">
+            <div class="content1">
+                <img class="img-content" src="assets/travel-1.jpg" alt="Content">
+
+                <div class="comment">
+                    <p>"Liburan jadi menyenangkan bersama Travel Agentku"</p>
+                    
+                    <span><i class="fa fa-user-circle-o fa-lg"></i> Florence Hughes</span>
+                    <p>Ibu Rumah Tangga, 28</p>
+                </div>
+            </div>
+
+            <div class="content2">
+
+                <h2 class="contact-title">Contact Us</h2>
+                <p class="contact-subtitle">Sales akan menghubungi anda 1x24 Jam setelah data kami terima.</p>
+                
+                <br>
+                <form id="contact-form" class="contact-form" onsubmit="{return false;}">
+                    <label for="nama">Your Name:</label>
+                    <input type="text" id="nama" name="nama" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" name="email" required>
+
+                    <label for="interest">Your interest :</label>
+                    <select name="interest" id="interest" required>
+                        <option value="">- Pilih -</option>
+                        <option value="'Pantai'">Pantai</option>
+                        <option value="'Gunung'">Gunung</option>
+                    </select>
+
+                    <button id="btn-kirim" type="submit" onclick="kirim()">Kirim</button>
+                </form>
+
+                <p id="message-success" class="message-success"></p>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="our-package" class="our-package">
+        <h1>Our Package</h1>
+    </section>
+
+    <section id="package" class="package">
+
+        <div class="content-package">            
+            <h4><i class="fa fa-lightbulb-o"></i> Bali</h4>
+            <p>Travel dan wisata di Bali. kunjungi cagar budaya dan kuliner yang menarik</p>
+        </div>
+        <div class="content-package">
+            <h4><i class="fa fa-lightbulb-o"></i> Japan</h4>
+            <p>Travel dan wisata di Japan. kunjungi cagar budaya dan kuliner yang menarik</p>
+        </div>
+        <div class="content-package">
+            <h4><i class="fa fa-lightbulb-o"></i> Singapore</h4>
+            <p>Travel dan wisata di Singapore. kunjungi cagar budaya dan kuliner yang menarik</p>
+        </div>
+
+    </section>
+
+    <hr class="garis-pemisah">
+
+    <section id="package" class="package">
+
+        <div class="content-package">            
+            <h4><i class="fa fa-star"></i> Bandung</h4>
+            <p>Travel dan wisata di Bandung. kunjungi cagar budaya dan kuliner yang menarik</p>
+        </div>
+        <div class="content-package">
+            <h4><i class="fa fa-star"></i> Surabaya</h4>
+            <p>Travel dan wisata di Surabaya. kunjungi cagar budaya dan kuliner yang menarik</p>
+        </div>
+        <div class="content-package">
+            <h4><i class="fa fa-star"></i> Third Feature</h4>
+            <p>This description supports and extends the bullet point above.</p>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section id="call-action" class="call-action">
+        <h1>Your Closing Argument Headline</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quidem illum repellat totam rem animi veniam debitis fugit corrupti eum. Iusto obcaecati officia ratione magni, error perspiciatis nulla itaque nobis.</p>
+        <center>
+            <button type="submit">Call To Action</button>
+        </center>
+    </section>
+
+    <hr>
+
+    <footer id="footer" class="footer">
+        <h1>Go Travel</h1>
+        <p>Terms of Service  Privacy Policy</p>
+        <p>&copy 2024 Jundi Aufa</p>
+    </footer>
+
+    <button id="btn-scroll" class="btn-scroll" onclick="scrollToTop()">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

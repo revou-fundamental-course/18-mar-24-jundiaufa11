@@ -1,0 +1,258 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: consolas;
+}
+
+.subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: consolas;
+    color: #b7b9bb;
+}
+
+.header-container {
+    background-color: #161716;
+    border-radius: 10px;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.logo-icon img {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.nav-container button{
+    font-family: Consolas;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+.nav-container button:hover {
+    color: white;
+    background-color: #9f9fa6;
+    transition: .3s;
+}
+
+.section-container {
+    padding-top: 48px;
+    padding-bottom: 24px;
+}
+
+.section-container > header {
+    text-align: center;
+}
+
+.section-content-container {
+    display: flex;
+}
+
+.content1 {
+    height: 500px;
+    width: 100%;
+    margin: 10px;
+}
+
+.img-content {
+    border-radius: 10%;
+    width: 100%;
+}
+
+.content2 {
+    padding: 20px;
+    height: 500px;
+    width: 100%;
+    background-color: #f5f6f7;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+.comment {
+    font-style: italic;
+    font-weight: bold;
+    font-family: consolas;
+    color: #b7b9bb;
+    padding: 20px;
+}
+
+.contact-title {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: consolas;
+}
+
+.contact-subtitle {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: consolas;
+    color: #b7b9bb;
+}
+
+.message-success {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Consolas;
+    font-style: italic;
+    color: #3B4754;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+button[type=submit] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: white;
+    background-color: #262627;
+    transition: .3s;
+}
+
+button[type=submit]:hover {
+    color: black;
+    background-color: #f3f3f6;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.our-package {
+    font-size: 24px;
+    font-family: Consolas;
+    background-color: #EDF0F4;
+    padding: 50px;
+    text-align: center;
+    height: 100px;
+}
+
+.package {
+    height: 200px;
+    display: flex;
+    font-family: Consolas;
+}
+
+.package .content-package {
+    width: 500px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 30px;
+    position: relative;
+}
+
+.package .content-package i {
+    color: #9f9fa6;
+    font-size: 40px;
+    line-height: 0;
+}
+
+.package .content-package h4 {
+    color: #3B4754;
+    margin-left: 70px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.package .content-package p {
+    margin-left: 70px;
+    line-height: 24px;
+    font-size: 14px;
+    color: #8597AB;
+}
+
+.garis-pemisah {
+    width: 15%;
+    border: 1px solid;
+    color: #9f9fa6;
+}
+
+.call-action {
+    height: 300px;
+    width: 100%;
+    font-family: Consolas;
+}
+
+.call-action h1 {
+    padding: 20px 100px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.call-action p {
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.call-action button {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: white;
+    background-color: #262627;
+    cursor: pointer;
+}
+
+.footer {
+    height: 100px;
+    margin: 20px;
+    text-align: center;
+    font-family: Consolas;
+}
+
+.footer h1 {
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.footer p {
+    color: #9f9fa6;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn-scroll {
+    background-color: #8597AB;
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+}
